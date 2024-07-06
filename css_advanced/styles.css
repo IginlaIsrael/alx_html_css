@@ -1,4 +1,10 @@
-
+/* Root styles */
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Nav Styles */
 nav{
     display: flex;
     justify-content: space-between;
@@ -20,6 +26,26 @@ nav{
 header{
     margin: 0px;
     align-items: center;
+}
+/* Body Styles */
+
+body{
+    height: 100%;
+    background: url(pic/CSS\ Advanced/object.png) no-repeat;
+    box-shadow: inset 0 0 0 1000px rgba(181, 177, 196, 0.4);
+    font-family: DM sans, sans-serif;
+    
+}
+
+/* Footer Styling */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    flex-direction: row;
+
 }
 
 
