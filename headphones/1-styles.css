@@ -1,0 +1,59 @@
+/* --------------------General Styles-------------------- */
+
+*, *::after , *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body , html{
+    height: 100%;
+    
+}
+/* ------------------Nav Styles---------------- */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    padding-bottom: 200px;
+    font-family: spin-cycle, sans-serif;
+    
+}
+nav ul, nav section {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    
+}
+nav ul li a, nav section{
+    padding: 0 5px;
+    text-decoration: none;
+}
+nav img{
+    height: auto;
+    width: 20px;
+    margin-right: 10px;
+}
+/* ---------Body Styles ---------- */
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+nav, .mainContainer{
+    background: url(Headphones/images/headphones_hero_1.jpg);
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px rgba(177, 176, 181, 0.6);
+}
+button{
+    margin: 35px;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
